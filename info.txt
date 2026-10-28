@@ -1,0 +1,13 @@
+Le code est séparé en 5 bibliothèque :
+
+- 	Police : la bibliothèque sert uniquement de stockage des séries de positions pour chaque lettre. (voir si 	possible de passer avec que le .h pour avoir les définition mais pas le coté bibli).
+
+-	Braille : la bibliothèque stocke les positions des points pour chaque caractère. (voir si possible de passer 	avec que le .h pour avoir les définition mais pas le coté bibli).
+
+-	Citation : Bibliothèque contenant le code de récupération de la citation.
+
+-	Position : Bibliothèque qui a partir de la citation et du mode (Calligraphié ou braille) sort au fur et a 	mesure coordonnée de la tête.
+
+-	Bras : La bibliothèque envoie les bonnes positions aux moteurs a partir des coordonnées.
+
+
